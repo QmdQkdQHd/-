@@ -1,0 +1,32 @@
+body {
+    background-color: #e9ecef;
+}
+
+#wrap {
+    width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#todo-input {
+    width: 280px;
+    height: 25px;
+}
+
+#add-btn {
+    height: 30px;
+    width: 50px;
+}
+
+li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.completed .todo-text {
+    text-decoration: line-through;
+    color: gray;
+}
